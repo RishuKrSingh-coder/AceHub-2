@@ -59,7 +59,7 @@ html {
   color: white;
 }
 .background{
-  background-image: url('/Capstone/Rectangle\ 15.png'), url('/Capstone/Group\ 2.png'); /* top image first */
+  background-image: url('/Rectangle15.png'), url('/Group2.png'); /* top image first */
   background-size: cover, cover;
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
