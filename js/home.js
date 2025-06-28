@@ -1,24 +1,26 @@
+
 // Blog slider logic
 const blogs = [
   {
     img: "https://randomuser.me/api/portraits/men/32.jpg",
     name: "RISHU KUMAR SINGH",
-    text: "Lorem ipsum dolor sit amet, et, qui elit qui ullamcorper et, qui elit qui ullamcorper et, qui elit qui ullamcorper et, qui elit qui ullamcorper.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     meta: "1 year ago"
   },
   {
     img: "https://randomuser.me/api/portraits/women/44.jpg",
     name: "SNEHA KUMARI SINGH",
-    text: "Lorem ipsum dolor sit amet, et, qui elit qui ullamcorper et, qui elit qui ullamcorper et, qui elit qui ullamcorper et, qui elit qui ullamcorper.",
+    text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     meta: "1 year ago"
   },
   {
     img: "https://randomuser.me/api/portraits/women/65.jpg",
-    name: "BHAWTI KUMARI SINGH",
-    text: "Lorem ipsum dolor sit amet, et, qui elit qui ullamcorper et, qui elit qui ullamcorper et, qui elit qui ullamcorper et, qui elit qui ullamcorper.",
+    name: "BHAWATI KUMARI SINGH",
+    text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     meta: "1 year ago"
   }
 ];
+
 let blogIndex = 0;
 function renderBlogs() {
   const cards = [];
@@ -26,9 +28,9 @@ function renderBlogs() {
     const idx = (blogIndex + i) % blogs.length;
     const b = blogs[idx];
     cards.push(`
-      <div class="blog-card">
-        <img src="${b.img}" alt="${b.name}">
-        <h4>${b.name}</h4>
+      <div class="card">
+        <img src="${b.img}" alt="${b.name}" />
+        <h3>${b.name}</h3>
         <p>${b.text}</p>
         <div class="blog-meta">${b.meta}</div>
       </div>
@@ -41,6 +43,8 @@ function slideBlogs(dir) {
   renderBlogs();
 }
 renderBlogs();
+
+
 
 // Games slider logic
 const games = [
