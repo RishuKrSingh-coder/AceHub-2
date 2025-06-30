@@ -150,7 +150,7 @@ body {
   display: flex;
   gap: 2rem;
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
 }
 .contact-form input,
 .contact-form textarea {
