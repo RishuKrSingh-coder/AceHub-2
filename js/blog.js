@@ -1,7 +1,7 @@
 // Sample posts data
-const posts = Array.from({length: 12}, (_, i) => ({
+const posts = Array.from({ length: 12 }, (_, i) => ({
   author: "ACEHUB",
-  avatar: "A",
+  avatar: "cropped_image.png", // Make sure this image is in the correct folder
   date: "3 days ago",
   read: "3 min read",
   title: `"HOW TO IDEATE A STARTUP" - JAY IIT STUDENT ASSISTED IN THE AUDITORIUM OF IIT PATNA SENATE HALL`,
@@ -14,7 +14,7 @@ function renderPosts() {
   document.getElementById('postsGrid').innerHTML = posts.map(post => `
     <div class="blog-card">
       <div class="blog-header">
-        <span class="avatar">${post.avatar}</span>
+        <img src="${post.avatar}" alt="${post.author}" class="avatar" />
         <span class="blog-meta">
           ${post.author} &nbsp; • &nbsp; ${post.date} &nbsp; • &nbsp; ${post.read}
         </span>
