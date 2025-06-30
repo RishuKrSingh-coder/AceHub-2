@@ -205,6 +205,29 @@ html {
   margin-left: 10px;
   font-size: 40px;
 }
+.card-bs h3{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.card-bs p{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.card-bs button{
+  background-color: #8841a6;
+  color:#d2ffdb;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 30px;
+  margin-top:  30px;
+  cursor: pointer;
+}
 .card-bdes{
   background-color: #3a1e1e;
   height: 350px;
@@ -212,14 +235,37 @@ html {
   border-radius: 10px;
 }
 .card-bdes h2{
-  color: #ff4a4a;
+  color: #f55252;
   margin-top: 10px;
   margin-left: 10px;
   font-size: 40px;
 }
+.card-bdes h3{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.card-bdes p{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.card-bdes button{
+  background-color: #8841a6;
+  color:#d2ffdb;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 30px;
+  margin-top:  30px;
+  cursor: pointer;
+}
 .card-bsc{
   background-color: #2e0c2d;
-  height: 200px;
+  height: 250px;
   width: 580px;
   border-radius: 10px;
 }
@@ -229,9 +275,32 @@ html {
   margin-left: 10px;
   font-size: 40px;
 }
+.card-bsc h3{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.card-bsc p{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.card-bsc button{
+  background-color: #8841a6;
+  color:#d2ffdb;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 30px;
+  margin-top:  30px;
+  cursor: pointer;
+}
 .card-bba{
   background-color: #161622;
-  height: 200px;
+  height: 250px;
   width: 550px;
   border-radius: 10px;
 }
@@ -240,6 +309,29 @@ html {
   margin-top: 10px;
   margin-left: 10px;
   font-size: 40px;
+}
+.card-bba h3{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.card-bba p{
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.card-bba button{
+  background-color: #8841a6;
+  color:#d2ffdb;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 30px;
+  margin-top:  30px;
+  cursor: pointer;
 }
 .card-btech,
 .card-bs,
