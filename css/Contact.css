@@ -139,7 +139,7 @@ body {
 
 /* Contact Form */
 .contact-form {
-  max-width: 750px;
+  max-width: 600px;
   margin: 0 auto 3.5rem auto;
   display: flex;
   flex-direction: column;
